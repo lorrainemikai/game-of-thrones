@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>GAME OF THRONES.</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  </head>
-  <body>
-    <script src="jquery-3.3.1.js"></script>
-  <script src="scripts.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>GAME OF THRONES</title>
+</head>
+
+<body>
+<!-- Header -->
+<div class="container">
+  <div class="row">
+    <div class="text-center">
+      <p>HELLO! WELCOME TO THE GAME OF THRONES!</p>
+      <p>ENTER YOUR NUMBERS DOWN BELOW</p>
+      <p>Disclamer:the numbers should be between one to six.<b>DONT FORGET TO HOLD OR YOULL LOSE ALL YOUR POINTS!!!!!!!!!!!!!!!</b></p>
+    </div>
+  </div>
+<!--Player Display-->
+  <div class="row">
+    <div class="col-md-5">
+      <div class="player1">
+        <form id="form">
+          <label for="">Player1</label>
+        </form>
+        <h1 id="titles"></h1>
+        <div class="answer1" id="player1"></div>
+      </div>
+      <button type="submit" name="button" id="roll">ROLL</button>
+      <button type="submit" name="button" id="hold">HOLD</button>
+    </div>
+    <div class="col-md-2 text-center"></div>
+    <div class="col-md-5">
+      <div class="player2">
+        <form id="form2">
+          <label for="">Player2</label>>
+        </form>
+        <h1 id="title"></h1>
+        <div class="answer2" id="player2"></div>
+      </div>
+      <button type="submit" name="button" id="roll2" >ROLL</button >
+      <button type="submit" name="button" id="hold2">HOLD</button>
+    </div>
+  </div>
+</div>
+<!-- JavaScript links -->
+<script src="JS/jquery-3.3.1.js"></script>
+<script src="JS/scripts.js"></script>
+</body>
 </html>
