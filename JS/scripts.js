@@ -22,7 +22,6 @@ $(document).ready(function() {
 
   });
 });
-
 // Business Logic
 var answer
 var player = function(name, score) {
